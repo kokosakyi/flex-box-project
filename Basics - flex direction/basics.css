@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #323230;
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.stark {
+    background-color: #cdcdcd;
+}
+
+.lannister {
+    background-color: #6e0901;
+}
+
+.baratheon {
+    background-color: #b49d04;
+}
+
+.targaryen {
+    background-color: #000000;
+}
+
+.arryn {
+    background-color: #234b91;
+}
+
+.tully {
+    background-color: #07286b;
+}
+
+.greyjoy {
+    background-color: #000000;
+}
+
+.tyrell {
+    background-color: #3f6f0c;
+}
+
+.martell {
+    background-color: #b2710b;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.houses {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
