@@ -13,13 +13,13 @@ header {
     flex-flow: column-reverse nowrap;
     width: 100%;
     align-items: center;
-    height: 300px;
+    height: 500px;
 }
 
-header img {
+/* header img {
     width: 150px;
     height: auto;
-}
+} */
 
 .header-images {
     display: flex;

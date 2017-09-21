@@ -1,0 +1,115 @@
+.wrapper {
+  background: url('../resources/dark_turquoise_windows_8_bubbles_background_by_gifteddeviant-d4wkifd.png');
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 90%;
+  color: #fff;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  height: 8.5em;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 32.5%;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.cell {
+  flex: 0 1 48%;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card:hover {
+  border: 1px solid;
+}
+
+.card .caption {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.desktop {
+  background-color: #287d89;
+}
+
+.mail {
+  background-color: #00A41A;
+}
+
+.people {
+  background-color: #db562e;
+}
+
+.weather {
+  background-color: #2d88ef;
+}
+
+
+.map {
+  background-color: #603cbb;
+}
+
+
+.store {
+  background-color: #2d89ef;
+}
+
+.photo {
+  background-color: #bf1e4b;
+}
+
+.calendar {
+  background-color: #00a51b;
+}
+
+.xbox {
+  background-color: #6cb71e;
+}
+
+.explorer {
+  background-color: #2d8aef;
+}
+
+.music {
+  background-color: #623dbd;
+}
+
+.evernote {
+  background-color: #00586e;
+}
+
+.video {
+  background-color: #db552d;
+}
+
+
