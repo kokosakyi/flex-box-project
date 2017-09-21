@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #323230;
+    color: #fff;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.header-images {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+header img:nth-child(1) {
+    align-self: flex-end;
+}
+
+header img:nth-child(2) {
+    align-self: flex-start;
+}
+
+header img:nth-child(3){
+    align-self: flex-end;
+}
+
+
+.stark {
+    background-color: #cdcdcd;
+    color: #828282;
+    flex-grow: 1;
+}
+
+.lannister {
+    background-color: #6e0901;
+    color: #f9db48;
+    flex-basis: 300px;
+}
+
+.baratheon {
+    background-color: #b49d04;
+    color: #8e583d;
+    flex-shrink: 2;
+}
+
+.targaryen {
+    background-color: #000000;
+    color: #a32a24;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.arryn {
+    background-color: #234b91;
+    color: #3a93c9;
+    flex-grow: 1;
+}
+
+.tully {
+    background-color: #07286b;
+    color: #872b22;
+}
+
+.greyjoy {
+    background-color: #000000;
+    color: #872b22;
+    flex-grow: 1;
+}
+
+.tyrell {
+    background-color: #3f6f0c;
+    color: #edcd4a;
+}
+
+.martell {
+    background-color: #b2710b;
+    color: #ffeb78;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+}
+
+.houses {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: center;
+    
+}
+
+.house {
+    width: 25%;
+    margin: 0.3em;
+    padding: 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2em;
+    /* height: 500px; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.house h3 {
+    order: -1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+
+
