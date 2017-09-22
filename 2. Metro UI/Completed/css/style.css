@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background: url('../resources/img/bk_img.png');
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 90%;
+  color: #fff;
+}
+
+.content {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 32.5%;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  color: #fff;
+  height: 100%;
+}
+
+.cell {
+  flex: 0 0 48%;
+  padding-bottom: 0.5em;
+  height: 100%;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card:hover {
+  border: 1px solid;
+}
+
+.card .caption {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop {
+  background-color: #287d89;
+}
+
+.mail {
+  background-color: #00A41A;
+}
+
+.people {
+  background-color: #db562e;
+}
+
+.weather {
+  background-color: #2d88ef;
+}
+
+
+.map {
+  background-color: #603cbb;
+}
+
+
+.store {
+  background-color: #2d89ef;
+}
+
+.photo {
+  background-color: #bf1e4b;
+}
+
+.calendar {
+  background-color: #00a51b;
+}
+
+.xbox {
+  background-color: #6cb71e;
+}
+
+.explorer {
+  background-color: #2d8aef;
+}
+
+.music {
+  background-color: #623dbd;
+}
+
+.evernote {
+  background-color: #00586e;
+}
+
+.video {
+  background-color: #db552d;
+}
+
+
