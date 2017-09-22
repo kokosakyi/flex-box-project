@@ -1,0 +1,85 @@
+body {
+  background: url('images/bkk.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+header div {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  flex-grow: 1;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1em;
+  width: 200px;
+  height: 300px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.card .top {
+  font-size: 2em;
+}
+
+.card .middle {
+  font-size: 6em;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.card .bottom {
+  font-size: 2em;
+  transform: rotate(180deg);
+}
+
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
+
+.middle.joker, .middle.queen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card.joker .bottom, .card.queen .bottom {
+  transform: rotate(0deg);
+  display: flex;
+  justify-content: flex-end;
+}
