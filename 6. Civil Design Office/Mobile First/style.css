@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background-color: #fafafa;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  border-top: 2px dashed gray;
+  border-bottom: 2px dashed gray;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+header .logo h3 {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content .motto {
+  justify-content: center;
+  padding: 2em;
+  margin: 0.3em;
+  font-size: 3em;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: 2px dashed #000000;
+  border-radius: 10px;
+  color: darkred;
+  text-align: center;
+}
+
+.content .what-we-do {
+  align-self: flex-start;
+  margin: 20px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.specialty-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.specialty {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  border: 1px dashed;
+  margin: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.specialty a {
+  text-decoration: none;
+}
+
+.specialty .title {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 2px;
+  font-size: 0.75em;
+}
+
+.content img {
+  width: 100%;
+  border: 2px solid;
+}
+
+.footer {
+  display: flex;
+  width: 95%;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 50px 50px 10px 10px;
+  border: 1px dashed;
+  justify-content: center;
+} 
+
+/* Older Phones */
+
+@media only screen and (min-width: 320px) {
+  .banner {
+    display: none;
+  }
+  nav .top-menu {
+    display: none;
+  }
+  .content .motto {
+    padding: 1em;
+    font-size: 1em;
+  }
+  .content .what-we-do {
+    line-height: 1.5em;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+
+/*  Newer Phones */
+
+@media only screen and (min-width: 480px) {
+  .banner {
+    display: none;
+  }
+  nav .top-menu {
+    display: none;
+  }
+
+  
+}
+
+
+/* Small computer screens and large tablets */
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 40px;
+  }
+  nav .top-menu {
+    display: flex;
+    width: 100%;
+  }
+  nav .top-menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav .top-menu ul li {
+    flex-grow: 1;
+    display: flex;
+  }
+  nav ul a {
+    text-decoration: none;
+    color: #000000;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul a:hover {
+    color: red;
+    font-weight: bold;
+  }
+  .content .motto {
+    padding: 2em;
+    font-size: 3em;
+  }
+
+  .content .what-we-do {
+    line-height: 2em;
+    font-size: 1.1em;
+  }
+
+  .content img {
+    width: 250px;
+    border: 2px solid;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .specialty-lists {
+    justify-content: center;
+  }
+
+}
+
+
+/* Desktop monitors or large tablet devices */
+
+@media only screen and (min-width: 992px) {
+  .banner {
+    margin-bottom: 40px;
+  }
+  .container {
+    width: 960px;
+  }
+}
+
+
+/* Large Monitors and TVs */
+
+@media only screen and (min-width: 1200px) {
+  .banner {
+    margin-bottom: 40px;
+  }
+}

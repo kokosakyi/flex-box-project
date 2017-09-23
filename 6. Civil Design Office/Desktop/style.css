@@ -123,11 +123,6 @@ nav ul a:hover {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
-.content img {
-  width: 250px;
-  border: 2px solid;
-}
-
 .specialty-lists {
   display: flex;
   flex-wrap: wrap;
